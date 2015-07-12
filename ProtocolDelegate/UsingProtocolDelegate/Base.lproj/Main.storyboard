@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--HomeVC-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="HomeVC" customModule="UsingProtocolDelegate" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <userGuides>
+                            <userLayoutGuide location="162" affinity="minX"/>
+                            <userLayoutGuide location="284" affinity="minY"/>
+                        </userGuides>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yjx-a0-tq3">
+                                <rect key="frame" x="112" y="269" width="97" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="97" id="gKF-ux-Oij"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ae-1w-KD1">
+                                <rect key="frame" x="137" y="184" width="46" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="yjx-a0-tq3" secondAttribute="centerX" id="3nr-hh-psb"/>
+                            <constraint firstItem="yjx-a0-tq3" firstAttribute="centerX" secondItem="3ae-1w-KD1" secondAttribute="centerX" constant="0.5" id="4PF-qp-oye"/>
+                            <constraint firstAttribute="centerY" secondItem="yjx-a0-tq3" secondAttribute="centerY" id="ILG-5g-FDi"/>
+                            <constraint firstItem="yjx-a0-tq3" firstAttribute="top" secondItem="3ae-1w-KD1" secondAttribute="bottom" constant="64" id="POz-fo-JNn"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="inputHomeTextField" destination="yjx-a0-tq3" id="fjX-tz-yqT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--DetailVC-->
+        <scene sceneID="fDb-rB-Jf8">
+            <objects>
+                <viewController storyboardIdentifier="DetailVC" id="hsc-cQ-Svy" customClass="DetailVC" customModule="UsingProtocolDelegate" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WYA-5Q-2Te"/>
+                        <viewControllerLayoutGuide type="bottom" id="XGn-WI-kg6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2KU-jB-P1d">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <userGuides>
+                            <userLayoutGuide location="64" affinity="minX"/>
+                            <userLayoutGuide location="349" affinity="minY"/>
+                            <userLayoutGuide location="253" affinity="minX"/>
+                            <userLayoutGuide location="222" affinity="minY"/>
+                        </userGuides>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CgA-b0-09d">
+                                <rect key="frame" x="112" y="269" width="97" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="97" id="xku-fR-f2n"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Detail" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6h5-nv-eVe">
+                                <rect key="frame" x="138" y="169" width="44" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="CgA-b0-09d" secondAttribute="centerY" id="1Yn-uV-O0G"/>
+                            <constraint firstAttribute="centerX" secondItem="CgA-b0-09d" secondAttribute="centerX" id="1kL-gx-fHR"/>
+                            <constraint firstItem="CgA-b0-09d" firstAttribute="centerX" secondItem="6h5-nv-eVe" secondAttribute="centerX" id="ZSV-Ma-L42"/>
+                            <constraint firstItem="CgA-b0-09d" firstAttribute="top" secondItem="6h5-nv-eVe" secondAttribute="bottom" constant="79" id="e5d-kn-tD3"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="outputDetailTexfield" destination="CgA-b0-09d" id="816-SM-vkc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vzq-fe-7kP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="672" y="288"/>
+        </scene>
+    </scenes>
+</document>

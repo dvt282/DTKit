@@ -1,0 +1,1040 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		050F19861B5282E5009603F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050F197E1B5282E5009603F0 /* AppDelegate.swift */; };
+		050F19871B5282E5009603F0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 050F197F1B5282E5009603F0 /* LaunchScreen.xib */; };
+		050F19881B5282E5009603F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 050F19811B5282E5009603F0 /* Main.storyboard */; };
+		050F19891B5282E5009603F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 050F19831B5282E5009603F0 /* Images.xcassets */; };
+		050F198A1B5282E5009603F0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 050F19841B5282E5009603F0 /* Info.plist */; };
+		050F198B1B5282E5009603F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050F19851B5282E5009603F0 /* ViewController.swift */; };
+		05F531851B52358A00DC8726 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F531841B52358A00DC8726 /* AppDelegate.swift */; };
+		05F531871B52358A00DC8726 /* SpeciesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F531861B52358A00DC8726 /* SpeciesViewController.swift */; };
+		05F5318A1B52358A00DC8726 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05F531881B52358A00DC8726 /* Main.storyboard */; };
+		05F5318C1B52358A00DC8726 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05F5318B1B52358A00DC8726 /* Images.xcassets */; };
+		05F5318F1B52358A00DC8726 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05F5318D1B52358A00DC8726 /* LaunchScreen.xib */; };
+		05F5319B1B52358A00DC8726 /* SigntoneSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F5319A1B52358A00DC8726 /* SigntoneSwiftTests.swift */; };
+		05F531AA1B52409000DC8726 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F531A91B52409000DC8726 /* DataManager.swift */; };
+		05F531AC1B52468600DC8726 /* RacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F531AB1B52468600DC8726 /* RacesViewController.swift */; };
+		05F531B61B5260D800DC8726 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F531B51B5260D800DC8726 /* AppDelegate.swift */; };
+		05F531B81B5260D800DC8726 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F531B71B5260D800DC8726 /* ViewController.swift */; };
+		05F531BB1B5260D800DC8726 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05F531B91B5260D800DC8726 /* Main.storyboard */; };
+		05F531BD1B5260D800DC8726 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05F531BC1B5260D800DC8726 /* Images.xcassets */; };
+		05F531C01B5260D800DC8726 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05F531BE1B5260D800DC8726 /* LaunchScreen.xib */; };
+		05F531CC1B5260D800DC8726 /* UsingSignToneSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F531CB1B5260D800DC8726 /* UsingSignToneSwiftTests.swift */; };
+		05F531D41B52610300DC8726 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F531D31B52610300DC8726 /* User.swift */; };
+		05F531D61B52617900DC8726 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F531D51B52617900DC8726 /* Common.swift */; };
+		05F531D91B52666E00DC8726 /* LogoutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F531D81B52666E00DC8726 /* LogoutVC.swift */; };
+		05F531F91B527D2A00DC8726 /* ProtocolDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F531F81B527D2A00DC8726 /* ProtocolDelegateTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05F531951B52358A00DC8726 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05F531771B52358900DC8726 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05F5317E1B52358A00DC8726;
+			remoteInfo = SigntoneSwift;
+		};
+		05F531C61B5260D800DC8726 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05F531771B52358900DC8726 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05F531B01B5260D800DC8726;
+			remoteInfo = UsingSignToneSwift;
+		};
+		05F531F31B527D2900DC8726 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05F531771B52358900DC8726 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05F531DD1B527D2900DC8726;
+			remoteInfo = ProtocolDelegate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		050F197E1B5282E5009603F0 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		050F19801B5282E5009603F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		050F19821B5282E5009603F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		050F19831B5282E5009603F0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		050F19841B5282E5009603F0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		050F19851B5282E5009603F0 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		05F5317F1B52358A00DC8726 /* SigntoneSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SigntoneSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05F531831B52358A00DC8726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05F531841B52358A00DC8726 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		05F531861B52358A00DC8726 /* SpeciesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeciesViewController.swift; sourceTree = "<group>"; };
+		05F531891B52358A00DC8726 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05F5318B1B52358A00DC8726 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		05F5318E1B52358A00DC8726 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		05F531941B52358A00DC8726 /* SigntoneSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SigntoneSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05F531991B52358A00DC8726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05F5319A1B52358A00DC8726 /* SigntoneSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigntoneSwiftTests.swift; sourceTree = "<group>"; };
+		05F531A91B52409000DC8726 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		05F531AB1B52468600DC8726 /* RacesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RacesViewController.swift; sourceTree = "<group>"; };
+		05F531B11B5260D800DC8726 /* UsingSignToneSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UsingSignToneSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05F531B41B5260D800DC8726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05F531B51B5260D800DC8726 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		05F531B71B5260D800DC8726 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		05F531BA1B5260D800DC8726 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05F531BC1B5260D800DC8726 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		05F531BF1B5260D800DC8726 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		05F531C51B5260D800DC8726 /* UsingSignToneSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UsingSignToneSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05F531CA1B5260D800DC8726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05F531CB1B5260D800DC8726 /* UsingSignToneSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingSignToneSwiftTests.swift; sourceTree = "<group>"; };
+		05F531D31B52610300DC8726 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		05F531D51B52617900DC8726 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		05F531D81B52666E00DC8726 /* LogoutVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoutVC.swift; sourceTree = "<group>"; };
+		05F531DE1B527D2900DC8726 /* ProtocolDelegate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProtocolDelegate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05F531F21B527D2900DC8726 /* ProtocolDelegateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtocolDelegateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05F531F71B527D2A00DC8726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05F531F81B527D2A00DC8726 /* ProtocolDelegateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolDelegateTests.swift; sourceTree = "<group>"; };
+		05F5320D1B527F8200DC8726 /* ProtocolDelegate Lite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ProtocolDelegate Lite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05F5320E1B527F8200DC8726 /* ProtocolDelegate Lite-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ProtocolDelegate Lite-Info.plist"; path = "/Users/Thanh/Desktop/DTKit/SigntoneSwift/ProtocolDelegate Lite-Info.plist"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05F5317C1B52358A00DC8726 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F531911B52358A00DC8726 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F531AE1B5260D800DC8726 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F531C21B5260D800DC8726 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F531DB1B527D2900DC8726 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F531EF1B527D2900DC8726 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F532051B527F8200DC8726 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		050F197D1B5282E5009603F0 /* ProtocolDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				050F197E1B5282E5009603F0 /* AppDelegate.swift */,
+				050F197F1B5282E5009603F0 /* LaunchScreen.xib */,
+				050F19811B5282E5009603F0 /* Main.storyboard */,
+				050F19831B5282E5009603F0 /* Images.xcassets */,
+				050F19841B5282E5009603F0 /* Info.plist */,
+				050F19851B5282E5009603F0 /* ViewController.swift */,
+			);
+			path = ProtocolDelegate;
+			sourceTree = "<group>";
+		};
+		05F531761B52358900DC8726 = {
+			isa = PBXGroup;
+			children = (
+				050F197D1B5282E5009603F0 /* ProtocolDelegate */,
+				05F531811B52358A00DC8726 /* SigntoneSwift */,
+				05F531971B52358A00DC8726 /* SigntoneSwiftTests */,
+				05F531B21B5260D800DC8726 /* UsingSignToneSwift */,
+				05F531C81B5260D800DC8726 /* UsingSignToneSwiftTests */,
+				05F531F51B527D2900DC8726 /* ProtocolDelegateTests */,
+				05F531801B52358A00DC8726 /* Products */,
+				05F5320E1B527F8200DC8726 /* ProtocolDelegate Lite-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		05F531801B52358A00DC8726 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05F5317F1B52358A00DC8726 /* SigntoneSwift.app */,
+				05F531941B52358A00DC8726 /* SigntoneSwiftTests.xctest */,
+				05F531B11B5260D800DC8726 /* UsingSignToneSwift.app */,
+				05F531C51B5260D800DC8726 /* UsingSignToneSwiftTests.xctest */,
+				05F531DE1B527D2900DC8726 /* ProtocolDelegate.app */,
+				05F531F21B527D2900DC8726 /* ProtocolDelegateTests.xctest */,
+				05F5320D1B527F8200DC8726 /* ProtocolDelegate Lite.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05F531811B52358A00DC8726 /* SigntoneSwift */ = {
+			isa = PBXGroup;
+			children = (
+				05F531841B52358A00DC8726 /* AppDelegate.swift */,
+				05F531861B52358A00DC8726 /* SpeciesViewController.swift */,
+				05F531AB1B52468600DC8726 /* RacesViewController.swift */,
+				05F531A41B52359E00DC8726 /* Model */,
+				05F531881B52358A00DC8726 /* Main.storyboard */,
+				05F5318B1B52358A00DC8726 /* Images.xcassets */,
+				05F5318D1B52358A00DC8726 /* LaunchScreen.xib */,
+				05F531821B52358A00DC8726 /* Supporting Files */,
+			);
+			path = SigntoneSwift;
+			sourceTree = "<group>";
+		};
+		05F531821B52358A00DC8726 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05F531831B52358A00DC8726 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		05F531971B52358A00DC8726 /* SigntoneSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				05F5319A1B52358A00DC8726 /* SigntoneSwiftTests.swift */,
+				05F531981B52358A00DC8726 /* Supporting Files */,
+			);
+			path = SigntoneSwiftTests;
+			sourceTree = "<group>";
+		};
+		05F531981B52358A00DC8726 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05F531991B52358A00DC8726 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		05F531A41B52359E00DC8726 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				05F531A91B52409000DC8726 /* DataManager.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		05F531B21B5260D800DC8726 /* UsingSignToneSwift */ = {
+			isa = PBXGroup;
+			children = (
+				05F531B51B5260D800DC8726 /* AppDelegate.swift */,
+				05F531B71B5260D800DC8726 /* ViewController.swift */,
+				05F531D81B52666E00DC8726 /* LogoutVC.swift */,
+				05F531D71B52644300DC8726 /* Model */,
+				05F531B91B5260D800DC8726 /* Main.storyboard */,
+				05F531BC1B5260D800DC8726 /* Images.xcassets */,
+				05F531BE1B5260D800DC8726 /* LaunchScreen.xib */,
+				05F531B31B5260D800DC8726 /* Supporting Files */,
+			);
+			path = UsingSignToneSwift;
+			sourceTree = "<group>";
+		};
+		05F531B31B5260D800DC8726 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05F531B41B5260D800DC8726 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		05F531C81B5260D800DC8726 /* UsingSignToneSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				05F531CB1B5260D800DC8726 /* UsingSignToneSwiftTests.swift */,
+				05F531C91B5260D800DC8726 /* Supporting Files */,
+			);
+			path = UsingSignToneSwiftTests;
+			sourceTree = "<group>";
+		};
+		05F531C91B5260D800DC8726 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05F531CA1B5260D800DC8726 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		05F531D71B52644300DC8726 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				05F531D31B52610300DC8726 /* User.swift */,
+				05F531D51B52617900DC8726 /* Common.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		05F531F51B527D2900DC8726 /* ProtocolDelegateTests */ = {
+			isa = PBXGroup;
+			children = (
+				05F531F81B527D2A00DC8726 /* ProtocolDelegateTests.swift */,
+				05F531F61B527D2A00DC8726 /* Supporting Files */,
+			);
+			path = ProtocolDelegateTests;
+			sourceTree = "<group>";
+		};
+		05F531F61B527D2A00DC8726 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05F531F71B527D2A00DC8726 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05F5317E1B52358A00DC8726 /* SigntoneSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05F5319E1B52358A00DC8726 /* Build configuration list for PBXNativeTarget "SigntoneSwift" */;
+			buildPhases = (
+				05F5317B1B52358A00DC8726 /* Sources */,
+				05F5317C1B52358A00DC8726 /* Frameworks */,
+				05F5317D1B52358A00DC8726 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SigntoneSwift;
+			productName = SigntoneSwift;
+			productReference = 05F5317F1B52358A00DC8726 /* SigntoneSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05F531931B52358A00DC8726 /* SigntoneSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05F531A11B52358A00DC8726 /* Build configuration list for PBXNativeTarget "SigntoneSwiftTests" */;
+			buildPhases = (
+				05F531901B52358A00DC8726 /* Sources */,
+				05F531911B52358A00DC8726 /* Frameworks */,
+				05F531921B52358A00DC8726 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05F531961B52358A00DC8726 /* PBXTargetDependency */,
+			);
+			name = SigntoneSwiftTests;
+			productName = SigntoneSwiftTests;
+			productReference = 05F531941B52358A00DC8726 /* SigntoneSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05F531B01B5260D800DC8726 /* UsingSignToneSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05F531CD1B5260D800DC8726 /* Build configuration list for PBXNativeTarget "UsingSignToneSwift" */;
+			buildPhases = (
+				05F531AD1B5260D800DC8726 /* Sources */,
+				05F531AE1B5260D800DC8726 /* Frameworks */,
+				05F531AF1B5260D800DC8726 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UsingSignToneSwift;
+			productName = UsingSignToneSwift;
+			productReference = 05F531B11B5260D800DC8726 /* UsingSignToneSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05F531C41B5260D800DC8726 /* UsingSignToneSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05F531D01B5260D800DC8726 /* Build configuration list for PBXNativeTarget "UsingSignToneSwiftTests" */;
+			buildPhases = (
+				05F531C11B5260D800DC8726 /* Sources */,
+				05F531C21B5260D800DC8726 /* Frameworks */,
+				05F531C31B5260D800DC8726 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05F531C71B5260D800DC8726 /* PBXTargetDependency */,
+			);
+			name = UsingSignToneSwiftTests;
+			productName = UsingSignToneSwiftTests;
+			productReference = 05F531C51B5260D800DC8726 /* UsingSignToneSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05F531DD1B527D2900DC8726 /* ProtocolDelegate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05F531FA1B527D2A00DC8726 /* Build configuration list for PBXNativeTarget "ProtocolDelegate" */;
+			buildPhases = (
+				05F531DA1B527D2900DC8726 /* Sources */,
+				05F531DB1B527D2900DC8726 /* Frameworks */,
+				05F531DC1B527D2900DC8726 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProtocolDelegate;
+			productName = ProtocolDelegate;
+			productReference = 05F531DE1B527D2900DC8726 /* ProtocolDelegate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05F531F11B527D2900DC8726 /* ProtocolDelegateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05F531FD1B527D2A00DC8726 /* Build configuration list for PBXNativeTarget "ProtocolDelegateTests" */;
+			buildPhases = (
+				05F531EE1B527D2900DC8726 /* Sources */,
+				05F531EF1B527D2900DC8726 /* Frameworks */,
+				05F531F01B527D2900DC8726 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05F531F41B527D2900DC8726 /* PBXTargetDependency */,
+			);
+			name = ProtocolDelegateTests;
+			productName = ProtocolDelegateTests;
+			productReference = 05F531F21B527D2900DC8726 /* ProtocolDelegateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05F532011B527F8200DC8726 /* ProtocolDelegateLite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05F5320A1B527F8200DC8726 /* Build configuration list for PBXNativeTarget "ProtocolDelegateLite" */;
+			buildPhases = (
+				05F532021B527F8200DC8726 /* Sources */,
+				05F532051B527F8200DC8726 /* Frameworks */,
+				05F532061B527F8200DC8726 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProtocolDelegateLite;
+			productName = ProtocolDelegate;
+			productReference = 05F5320D1B527F8200DC8726 /* ProtocolDelegate Lite.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05F531771B52358900DC8726 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Thanh;
+				TargetAttributes = {
+					05F5317E1B52358A00DC8726 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					05F531931B52358A00DC8726 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 05F5317E1B52358A00DC8726;
+					};
+					05F531B01B5260D800DC8726 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					05F531C41B5260D800DC8726 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 05F531B01B5260D800DC8726;
+					};
+					05F531DD1B527D2900DC8726 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					05F531F11B527D2900DC8726 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 05F531DD1B527D2900DC8726;
+					};
+				};
+			};
+			buildConfigurationList = 05F5317A1B52358900DC8726 /* Build configuration list for PBXProject "SigntoneSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05F531761B52358900DC8726;
+			productRefGroup = 05F531801B52358A00DC8726 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05F5317E1B52358A00DC8726 /* SigntoneSwift */,
+				05F531931B52358A00DC8726 /* SigntoneSwiftTests */,
+				05F531B01B5260D800DC8726 /* UsingSignToneSwift */,
+				05F531C41B5260D800DC8726 /* UsingSignToneSwiftTests */,
+				05F531DD1B527D2900DC8726 /* ProtocolDelegate */,
+				05F531F11B527D2900DC8726 /* ProtocolDelegateTests */,
+				05F532011B527F8200DC8726 /* ProtocolDelegateLite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05F5317D1B52358A00DC8726 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F5318A1B52358A00DC8726 /* Main.storyboard in Resources */,
+				05F5318F1B52358A00DC8726 /* LaunchScreen.xib in Resources */,
+				05F5318C1B52358A00DC8726 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F531921B52358A00DC8726 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F531AF1B5260D800DC8726 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F531BB1B5260D800DC8726 /* Main.storyboard in Resources */,
+				05F531C01B5260D800DC8726 /* LaunchScreen.xib in Resources */,
+				05F531BD1B5260D800DC8726 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F531C31B5260D800DC8726 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F531DC1B527D2900DC8726 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F531F01B527D2900DC8726 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F532061B527F8200DC8726 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				050F19871B5282E5009603F0 /* LaunchScreen.xib in Resources */,
+				050F19881B5282E5009603F0 /* Main.storyboard in Resources */,
+				050F19891B5282E5009603F0 /* Images.xcassets in Resources */,
+				050F198A1B5282E5009603F0 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05F5317B1B52358A00DC8726 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F531871B52358A00DC8726 /* SpeciesViewController.swift in Sources */,
+				05F531AC1B52468600DC8726 /* RacesViewController.swift in Sources */,
+				05F531AA1B52409000DC8726 /* DataManager.swift in Sources */,
+				05F531851B52358A00DC8726 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F531901B52358A00DC8726 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F5319B1B52358A00DC8726 /* SigntoneSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F531AD1B5260D800DC8726 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F531D61B52617900DC8726 /* Common.swift in Sources */,
+				05F531B81B5260D800DC8726 /* ViewController.swift in Sources */,
+				05F531B61B5260D800DC8726 /* AppDelegate.swift in Sources */,
+				05F531D41B52610300DC8726 /* User.swift in Sources */,
+				05F531D91B52666E00DC8726 /* LogoutVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F531C11B5260D800DC8726 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F531CC1B5260D800DC8726 /* UsingSignToneSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F531DA1B527D2900DC8726 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F531EE1B527D2900DC8726 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F531F91B527D2A00DC8726 /* ProtocolDelegateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F532021B527F8200DC8726 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				050F19861B5282E5009603F0 /* AppDelegate.swift in Sources */,
+				050F198B1B5282E5009603F0 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05F531961B52358A00DC8726 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05F5317E1B52358A00DC8726 /* SigntoneSwift */;
+			targetProxy = 05F531951B52358A00DC8726 /* PBXContainerItemProxy */;
+		};
+		05F531C71B5260D800DC8726 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05F531B01B5260D800DC8726 /* UsingSignToneSwift */;
+			targetProxy = 05F531C61B5260D800DC8726 /* PBXContainerItemProxy */;
+		};
+		05F531F41B527D2900DC8726 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05F531DD1B527D2900DC8726 /* ProtocolDelegate */;
+			targetProxy = 05F531F31B527D2900DC8726 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		050F197F1B5282E5009603F0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				050F19801B5282E5009603F0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		050F19811B5282E5009603F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				050F19821B5282E5009603F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		05F531881B52358A00DC8726 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05F531891B52358A00DC8726 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		05F5318D1B52358A00DC8726 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05F5318E1B52358A00DC8726 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		05F531B91B5260D800DC8726 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05F531BA1B5260D800DC8726 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		05F531BE1B5260D800DC8726 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05F531BF1B5260D800DC8726 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05F5319C1B52358A00DC8726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		05F5319D1B52358A00DC8726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05F5319F1B52358A00DC8726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SigntoneSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		05F531A01B52358A00DC8726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SigntoneSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		05F531A21B52358A00DC8726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SigntoneSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SigntoneSwift.app/SigntoneSwift";
+			};
+			name = Debug;
+		};
+		05F531A31B52358A00DC8726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SigntoneSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SigntoneSwift.app/SigntoneSwift";
+			};
+			name = Release;
+		};
+		05F531CE1B5260D800DC8726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UsingSignToneSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		05F531CF1B5260D800DC8726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UsingSignToneSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		05F531D11B5260D800DC8726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UsingSignToneSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UsingSignToneSwift.app/UsingSignToneSwift";
+			};
+			name = Debug;
+		};
+		05F531D21B5260D800DC8726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UsingSignToneSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UsingSignToneSwift.app/UsingSignToneSwift";
+			};
+			name = Release;
+		};
+		05F531FB1B527D2A00DC8726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ProtocolDelegate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		05F531FC1B527D2A00DC8726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ProtocolDelegate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		05F531FE1B527D2A00DC8726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ProtocolDelegateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProtocolDelegate.app/ProtocolDelegate";
+			};
+			name = Debug;
+		};
+		05F531FF1B527D2A00DC8726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ProtocolDelegateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProtocolDelegate.app/ProtocolDelegate";
+			};
+			name = Release;
+		};
+		05F5320B1B527F8200DC8726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ProtocolDelegate Lite-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "ProtocolDelegate Lite";
+			};
+			name = Debug;
+		};
+		05F5320C1B527F8200DC8726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ProtocolDelegate Lite-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "ProtocolDelegate Lite";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05F5317A1B52358900DC8726 /* Build configuration list for PBXProject "SigntoneSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F5319C1B52358A00DC8726 /* Debug */,
+				05F5319D1B52358A00DC8726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05F5319E1B52358A00DC8726 /* Build configuration list for PBXNativeTarget "SigntoneSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F5319F1B52358A00DC8726 /* Debug */,
+				05F531A01B52358A00DC8726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05F531A11B52358A00DC8726 /* Build configuration list for PBXNativeTarget "SigntoneSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F531A21B52358A00DC8726 /* Debug */,
+				05F531A31B52358A00DC8726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05F531CD1B5260D800DC8726 /* Build configuration list for PBXNativeTarget "UsingSignToneSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F531CE1B5260D800DC8726 /* Debug */,
+				05F531CF1B5260D800DC8726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05F531D01B5260D800DC8726 /* Build configuration list for PBXNativeTarget "UsingSignToneSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F531D11B5260D800DC8726 /* Debug */,
+				05F531D21B5260D800DC8726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05F531FA1B527D2A00DC8726 /* Build configuration list for PBXNativeTarget "ProtocolDelegate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F531FB1B527D2A00DC8726 /* Debug */,
+				05F531FC1B527D2A00DC8726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05F531FD1B527D2A00DC8726 /* Build configuration list for PBXNativeTarget "ProtocolDelegateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F531FE1B527D2A00DC8726 /* Debug */,
+				05F531FF1B527D2A00DC8726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05F5320A1B527F8200DC8726 /* Build configuration list for PBXNativeTarget "ProtocolDelegateLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F5320B1B527F8200DC8726 /* Debug */,
+				05F5320C1B527F8200DC8726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05F531771B52358900DC8726 /* Project object */;
+}

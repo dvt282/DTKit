@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		050F19EA1B52B286009603F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050F19E91B52B286009603F0 /* AppDelegate.swift */; };
+		050F19EC1B52B286009603F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050F19EB1B52B286009603F0 /* ViewController.swift */; };
+		050F19EF1B52B287009603F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 050F19ED1B52B287009603F0 /* Main.storyboard */; };
+		050F19F11B52B287009603F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 050F19F01B52B287009603F0 /* Images.xcassets */; };
+		050F19F41B52B287009603F0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 050F19F21B52B287009603F0 /* LaunchScreen.xib */; };
+		050F1A001B52B287009603F0 /* MultiLanguageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050F19FF1B52B287009603F0 /* MultiLanguageTests.swift */; };
+		050F1A0D1B52B33F009603F0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 050F1A0F1B52B33F009603F0 /* Localizable.strings */; };
+		050F1A1D1B52B6BB009603F0 /* DPAutolocalizationProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 050F1A161B52B6BB009603F0 /* DPAutolocalizationProxy.m */; };
+		050F1A1E1B52B6BB009603F0 /* DPLocalizationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 050F1A181B52B6BB009603F0 /* DPLocalizationManager.m */; };
+		050F1A1F1B52B6BB009603F0 /* NSObject+DPLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 050F1A1A1B52B6BB009603F0 /* NSObject+DPLocalization.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		050F19FA1B52B287009603F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 050F19DC1B52B286009603F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 050F19E31B52B286009603F0;
+			remoteInfo = MultiLanguage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		050F19E41B52B286009603F0 /* MultiLanguage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiLanguage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		050F19E81B52B286009603F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		050F19E91B52B286009603F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		050F19EB1B52B286009603F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		050F19EE1B52B287009603F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		050F19F01B52B287009603F0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		050F19F31B52B287009603F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		050F19F91B52B287009603F0 /* MultiLanguageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiLanguageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		050F19FE1B52B287009603F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		050F19FF1B52B287009603F0 /* MultiLanguageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiLanguageTests.swift; sourceTree = "<group>"; };
+		050F1A0E1B52B33F009603F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		050F1A101B52B34B009603F0 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		050F1A151B52B6BB009603F0 /* DPAutolocalizationProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPAutolocalizationProxy.h; sourceTree = "<group>"; };
+		050F1A161B52B6BB009603F0 /* DPAutolocalizationProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPAutolocalizationProxy.m; sourceTree = "<group>"; };
+		050F1A171B52B6BB009603F0 /* DPLocalizationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPLocalizationManager.h; sourceTree = "<group>"; };
+		050F1A181B52B6BB009603F0 /* DPLocalizationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPLocalizationManager.m; sourceTree = "<group>"; };
+		050F1A191B52B6BB009603F0 /* NSObject+DPLocalization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DPLocalization.h"; sourceTree = "<group>"; };
+		050F1A1A1B52B6BB009603F0 /* NSObject+DPLocalization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DPLocalization.m"; sourceTree = "<group>"; };
+		050F1A231B52B740009603F0 /* MultiLanguage-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MultiLanguage-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		050F19E11B52B286009603F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		050F19F61B52B287009603F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		050F19DB1B52B286009603F0 = {
+			isa = PBXGroup;
+			children = (
+				050F19E61B52B286009603F0 /* MultiLanguage */,
+				050F19FC1B52B287009603F0 /* MultiLanguageTests */,
+				050F19E51B52B286009603F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		050F19E51B52B286009603F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				050F19E41B52B286009603F0 /* MultiLanguage.app */,
+				050F19F91B52B287009603F0 /* MultiLanguageTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		050F19E61B52B286009603F0 /* MultiLanguage */ = {
+			isa = PBXGroup;
+			children = (
+				050F19E91B52B286009603F0 /* AppDelegate.swift */,
+				050F19EB1B52B286009603F0 /* ViewController.swift */,
+				050F19ED1B52B287009603F0 /* Main.storyboard */,
+				050F19F01B52B287009603F0 /* Images.xcassets */,
+				050F19F21B52B287009603F0 /* LaunchScreen.xib */,
+				050F1A131B52B6BB009603F0 /* DPLocalization */,
+				050F19E71B52B286009603F0 /* Supporting Files */,
+			);
+			path = MultiLanguage;
+			sourceTree = "<group>";
+		};
+		050F19E71B52B286009603F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				050F19E81B52B286009603F0 /* Info.plist */,
+				050F1A0F1B52B33F009603F0 /* Localizable.strings */,
+				050F1A231B52B740009603F0 /* MultiLanguage-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		050F19FC1B52B287009603F0 /* MultiLanguageTests */ = {
+			isa = PBXGroup;
+			children = (
+				050F19FF1B52B287009603F0 /* MultiLanguageTests.swift */,
+				050F19FD1B52B287009603F0 /* Supporting Files */,
+			);
+			path = MultiLanguageTests;
+			sourceTree = "<group>";
+		};
+		050F19FD1B52B287009603F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				050F19FE1B52B287009603F0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		050F1A131B52B6BB009603F0 /* DPLocalization */ = {
+			isa = PBXGroup;
+			children = (
+				050F1A141B52B6BB009603F0 /* DPLocalization */,
+			);
+			path = DPLocalization;
+			sourceTree = "<group>";
+		};
+		050F1A141B52B6BB009603F0 /* DPLocalization */ = {
+			isa = PBXGroup;
+			children = (
+				050F1A151B52B6BB009603F0 /* DPAutolocalizationProxy.h */,
+				050F1A161B52B6BB009603F0 /* DPAutolocalizationProxy.m */,
+				050F1A171B52B6BB009603F0 /* DPLocalizationManager.h */,
+				050F1A181B52B6BB009603F0 /* DPLocalizationManager.m */,
+				050F1A191B52B6BB009603F0 /* NSObject+DPLocalization.h */,
+				050F1A1A1B52B6BB009603F0 /* NSObject+DPLocalization.m */,
+			);
+			path = DPLocalization;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		050F19E31B52B286009603F0 /* MultiLanguage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 050F1A031B52B287009603F0 /* Build configuration list for PBXNativeTarget "MultiLanguage" */;
+			buildPhases = (
+				050F19E01B52B286009603F0 /* Sources */,
+				050F19E11B52B286009603F0 /* Frameworks */,
+				050F19E21B52B286009603F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiLanguage;
+			productName = MultiLanguage;
+			productReference = 050F19E41B52B286009603F0 /* MultiLanguage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		050F19F81B52B287009603F0 /* MultiLanguageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 050F1A061B52B287009603F0 /* Build configuration list for PBXNativeTarget "MultiLanguageTests" */;
+			buildPhases = (
+				050F19F51B52B287009603F0 /* Sources */,
+				050F19F61B52B287009603F0 /* Frameworks */,
+				050F19F71B52B287009603F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				050F19FB1B52B287009603F0 /* PBXTargetDependency */,
+			);
+			name = MultiLanguageTests;
+			productName = MultiLanguageTests;
+			productReference = 050F19F91B52B287009603F0 /* MultiLanguageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		050F19DC1B52B286009603F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Thanh;
+				TargetAttributes = {
+					050F19E31B52B286009603F0 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					050F19F81B52B287009603F0 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 050F19E31B52B286009603F0;
+					};
+				};
+			};
+			buildConfigurationList = 050F19DF1B52B286009603F0 /* Build configuration list for PBXProject "MultiLanguage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				vi,
+			);
+			mainGroup = 050F19DB1B52B286009603F0;
+			productRefGroup = 050F19E51B52B286009603F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				050F19E31B52B286009603F0 /* MultiLanguage */,
+				050F19F81B52B287009603F0 /* MultiLanguageTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		050F19E21B52B286009603F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				050F19EF1B52B287009603F0 /* Main.storyboard in Resources */,
+				050F1A0D1B52B33F009603F0 /* Localizable.strings in Resources */,
+				050F19F41B52B287009603F0 /* LaunchScreen.xib in Resources */,
+				050F19F11B52B287009603F0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		050F19F71B52B287009603F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		050F19E01B52B286009603F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				050F19EC1B52B286009603F0 /* ViewController.swift in Sources */,
+				050F1A1F1B52B6BB009603F0 /* NSObject+DPLocalization.m in Sources */,
+				050F19EA1B52B286009603F0 /* AppDelegate.swift in Sources */,
+				050F1A1E1B52B6BB009603F0 /* DPLocalizationManager.m in Sources */,
+				050F1A1D1B52B6BB009603F0 /* DPAutolocalizationProxy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		050F19F51B52B287009603F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				050F1A001B52B287009603F0 /* MultiLanguageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		050F19FB1B52B287009603F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 050F19E31B52B286009603F0 /* MultiLanguage */;
+			targetProxy = 050F19FA1B52B287009603F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		050F19ED1B52B287009603F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				050F19EE1B52B287009603F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		050F19F21B52B287009603F0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				050F19F31B52B287009603F0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		050F1A0F1B52B33F009603F0 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				050F1A0E1B52B33F009603F0 /* en */,
+				050F1A101B52B34B009603F0 /* vi */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		050F1A011B52B287009603F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		050F1A021B52B287009603F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		050F1A041B52B287009603F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MultiLanguage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MultiLanguage/MultiLanguage-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		050F1A051B52B287009603F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MultiLanguage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MultiLanguage/MultiLanguage-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		050F1A071B52B287009603F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MultiLanguageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiLanguage.app/MultiLanguage";
+			};
+			name = Debug;
+		};
+		050F1A081B52B287009603F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MultiLanguageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiLanguage.app/MultiLanguage";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		050F19DF1B52B286009603F0 /* Build configuration list for PBXProject "MultiLanguage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				050F1A011B52B287009603F0 /* Debug */,
+				050F1A021B52B287009603F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		050F1A031B52B287009603F0 /* Build configuration list for PBXNativeTarget "MultiLanguage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				050F1A041B52B287009603F0 /* Debug */,
+				050F1A051B52B287009603F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		050F1A061B52B287009603F0 /* Build configuration list for PBXNativeTarget "MultiLanguageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				050F1A071B52B287009603F0 /* Debug */,
+				050F1A081B52B287009603F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 050F19DC1B52B286009603F0 /* Project object */;
+}

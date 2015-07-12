@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>ProtocolDelegate.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>ProtocolDelegateLite.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>SigntoneSwift.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>UsingSignToneSwift.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>05F5317E1B52358A00DC8726</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>05F531931B52358A00DC8726</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>05F531B01B5260D800DC8726</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>05F531C41B5260D800DC8726</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>05F531DD1B527D2900DC8726</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>05F531F11B527D2900DC8726</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>05F532011B527F8200DC8726</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

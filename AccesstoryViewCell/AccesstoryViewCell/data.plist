@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>text</key>
+		<string>iphone</string>
+		<key>check</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>ipad</string>
+		<key>check</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>ipod</string>
+		<key>check</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>Mac</string>
+		<key>check</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>Mac book</string>
+		<key>check</key>
+		<false/>
+	</dict>
+</array>
+</plist>
