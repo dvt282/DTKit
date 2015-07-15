@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>swift-dispatch_afters</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeExpression</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>let delayTime = dispatch_time(DISPATCH_TIME_NOW, Int64(&lt;#seconds: Double#&gt; * Double(NSEC_PER_SEC)))
+dispatch_after(delayTime, dispatch_get_main_queue()) { &lt;#code: dispatch_block_t#&gt; }
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>E99271D4-D7FD-4820-A154-210E8E143F00</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Swift dispatch after</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Dispatch after</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
