@@ -17,21 +17,25 @@ class HomeVC: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-    func greteIOS9() -> Bool {
-        let os = NSProcessInfo().operatingSystemVersion
-        switch (os.majorVersion, os.minorVersion, os.patchVersion) {
-        case (8, _, _):
-            print("iOS >= 8.0.0")
-            return true
-         default:
-            return false
-       }
-    }
+    func isGreaterIOS9() -> Bool {
+      let device = UIDevice.currentDevice()
+      let iosVerson = (device.systemVersion as NSString).floatValue
+      if iosVerson >= 9.0 {
+      return true
+      }
+      return false
+  }
 
-    @IBAction func goAction(sender: UIButton) {
+    @IBAction func goAction(sender: UIButton!) {
         if !urlTextField.text!.isEmpty {
-           let urlString = urlTextField.text
-            if greteIOS9() {
+           var urlString = urlTextField.text
+          let rangeHTTP = urlString!.rangeOfString("http://")
+          if let _ = rangeHTTP {
+            
+          }else {
+            urlString = "http://"+urlString!
+          }
+            if isGreaterIOS9() {
                 UIApplication.sharedApplication().openURL(NSURL(string: urlString!)!)
             }else {
                 let webVC = LoadWebVC(nibName: "LoadWebVC", bundle: nil)
@@ -46,5 +50,15 @@ class HomeVC: UIViewController {
     }
     }
 extension HomeVC: UITextFieldDelegate {
-    
+  func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool {
+
+    return true
+  }
+  func textFieldDidBeginEditing(textField: UITextField) {
+    textField.returnKeyType = UIReturnKeyType.Go
+  }
+  func textFieldShouldReturn(textField: UITextField) -> Bool {
+    self.goAction(nil)
+    return true
+  }
 }

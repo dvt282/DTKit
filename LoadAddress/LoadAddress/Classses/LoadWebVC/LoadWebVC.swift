@@ -10,17 +10,20 @@ import UIKit
 
 class LoadWebVC: UIViewController {
     @IBOutlet weak var webView: UIWebView!
-    let alertLoad = UIAlertController(title: nil, message: "Loading", preferredStyle: UIAlertControllerStyle.Alert)
-    var url: String!
-    override func viewDidLoad() {
+//    let alertLoad = UIAlertController(title: nil, message: "Loading", preferredStyle: UIAlertControllerStyle.Alert)
+  var url: String!
+  override func viewDidLoad() {
         super.viewDidLoad()
-
-        if url.isEmpty {
-            let request = NSURLRequest(URL: NSURL(string: url)!)
-            self.webView.loadRequest(request)
-        }
+      print("URL: \(url)")
+      if !url.isEmpty {
+        let request = NSURLRequest(URL: NSURL(string: url)!)
+        self.webView.loadRequest(request)
+      }
+      
     }
-
+  override func viewWillAppear(animated: Bool) {
+    super.viewWillAppear(animated)
+  }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -30,9 +33,11 @@ class LoadWebVC: UIViewController {
 }
 extension LoadWebVC: UIWebViewDelegate {
     func webViewDidStartLoad(webView: UIWebView) {
-        presentViewController(alertLoad, animated: true, completion: nil)
+      UIApplication.sharedApplication().networkActivityIndicatorVisible = true
+//        presentViewController(alertLoad, animated: true, completion: nil)
     }
     func webViewDidFinishLoad(webView: UIWebView) {
-        alertLoad.dismissViewControllerAnimated(true, completion: nil)
+      UIApplication.sharedApplication().networkActivityIndicatorVisible = false
+//        alertLoad.dismissViewControllerAnimated(true, completion: nil)
     }
 }
