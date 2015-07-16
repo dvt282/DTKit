@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4664443A1B57CCE3006A14AF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 466444391B57CCE3006A14AF /* Default-568h@2x.png */; };
 		46A51E4F1B57C294003A1257 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46A51E4E1B57C294003A1257 /* Assets.xcassets */; };
 		46A51E5D1B57C2F5003A1257 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A51E5B1B57C2F5003A1257 /* AppDelegate.swift */; };
 		46A51E601B57C31D003A1257 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A51E5E1B57C31D003A1257 /* HomeVC.swift */; };
 		46A51E611B57C31D003A1257 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46A51E5F1B57C31D003A1257 /* HomeVC.xib */; };
+		46A51E651B57C66F003A1257 /* LoadWebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A51E631B57C66F003A1257 /* LoadWebVC.swift */; };
+		46A51E661B57C66F003A1257 /* LoadWebVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46A51E641B57C66F003A1257 /* LoadWebVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		466444391B57CCE3006A14AF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		46A51E441B57C294003A1257 /* LoadAddress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoadAddress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46A51E4E1B57C294003A1257 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46A51E531B57C294003A1257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46A51E5B1B57C2F5003A1257 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46A51E5E1B57C31D003A1257 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		46A51E5F1B57C31D003A1257 /* HomeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
+		46A51E631B57C66F003A1257 /* LoadWebVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadWebVC.swift; sourceTree = "<group>"; };
+		46A51E641B57C66F003A1257 /* LoadWebVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadWebVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +42,7 @@
 		46A51E3B1B57C294003A1257 = {
 			isa = PBXGroup;
 			children = (
+				466444391B57CCE3006A14AF /* Default-568h@2x.png */,
 				46A51E461B57C294003A1257 /* LoadAddress */,
 				46A51E451B57C294003A1257 /* Products */,
 			);
@@ -64,6 +71,7 @@
 			children = (
 				46A51E5A1B57C2F5003A1257 /* AppDelegate */,
 				46A51E5C1B57C2F5003A1257 /* HomeVC */,
+				46A51E621B57C656003A1257 /* LoadWebVC */,
 			);
 			path = Classses;
 			sourceTree = "<group>";
@@ -83,6 +91,15 @@
 				46A51E5F1B57C31D003A1257 /* HomeVC.xib */,
 			);
 			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		46A51E621B57C656003A1257 /* LoadWebVC */ = {
+			isa = PBXGroup;
+			children = (
+				46A51E631B57C66F003A1257 /* LoadWebVC.swift */,
+				46A51E641B57C66F003A1257 /* LoadWebVC.xib */,
+			);
+			path = LoadWebVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,7 +160,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				46A51E4F1B57C294003A1257 /* Assets.xcassets in Resources */,
+				4664443A1B57CCE3006A14AF /* Default-568h@2x.png in Resources */,
 				46A51E611B57C31D003A1257 /* HomeVC.xib in Resources */,
+				46A51E661B57C66F003A1257 /* LoadWebVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,6 +175,7 @@
 			files = (
 				46A51E5D1B57C2F5003A1257 /* AppDelegate.swift in Sources */,
 				46A51E601B57C31D003A1257 /* HomeVC.swift in Sources */,
+				46A51E651B57C66F003A1257 /* LoadWebVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +304,7 @@
 				46A51E581B57C294003A1257 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
