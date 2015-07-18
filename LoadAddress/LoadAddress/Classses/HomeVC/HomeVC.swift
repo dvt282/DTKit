@@ -40,7 +40,7 @@ class HomeVC: UIViewController {
             }else {
                 let webVC = LoadWebVC(nibName: "LoadWebVC", bundle: nil)
                 webVC.url = urlString
-                self.navigationController?.pushViewController(webVC, animated: true)
+                self.presentViewController(webVC, animated: true, completion: nil)
             }
         }
     }

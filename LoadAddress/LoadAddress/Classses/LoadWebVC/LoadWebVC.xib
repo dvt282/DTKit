@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8121.20" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8101.16"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoadWebVC" customModule="LoadAddress" customModuleProvider="target">
             <connections>
+                <outlet property="activityIndicator" destination="IgU-Nb-Xrv" id="xUo-9P-EgN"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
                 <outlet property="webView" destination="tF4-Vu-9Kx" id="Yog-xB-jwM"/>
             </connections>
@@ -17,27 +17,58 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tF4-Vu-9Kx">
-                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <rect key="frame" x="0.0" y="44" width="320" height="524"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <connections>
                         <outlet property="delegate" destination="-1" id="GnI-ij-5UF"/>
                     </connections>
                 </webView>
-                <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rvR-Z9-XNX">
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J3q-N2-Fuv">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="VA9-4v-hCo"/>
+                    </constraints>
                     <items>
-                        <navigationItem title="Title" id="Xvo-fT-Y10">
-                            <barButtonItem key="rightBarButtonItem" systemItem="stop" id="a6B-My-uxG"/>
-                        </navigationItem>
+                        <barButtonItem systemItem="rewind" id="w3D-yC-aFP">
+                            <connections>
+                                <action selector="goBack:" destination="-1" id="V98-zk-IJt"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem width="45" style="plain" systemItem="fixedSpace" id="Y1H-ta-rGx"/>
+                        <barButtonItem systemItem="fastForward" id="5os-5u-tFH">
+                            <connections>
+                                <action selector="goForward:" destination="-1" id="DZV-O6-2vl"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem width="64" style="plain" systemItem="fixedSpace" id="7Da-DY-N1s"/>
+                        <barButtonItem systemItem="refresh" id="VX3-Sv-tzw">
+                            <connections>
+                                <action selector="doRefresh:" destination="-1" id="dTi-Eg-dh6"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="qQE-C5-NZG"/>
+                        <barButtonItem systemItem="stop" id="mWK-4U-1mN">
+                            <connections>
+                                <action selector="stop:" destination="-1" id="lgG-k1-hBk"/>
+                            </connections>
+                        </barButtonItem>
                     </items>
-                </navigationBar>
+                </toolbar>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="IgU-Nb-Xrv">
+                    <rect key="frame" x="150" y="274" width="20" height="20"/>
+                </activityIndicatorView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
+                <constraint firstAttribute="centerY" secondItem="IgU-Nb-Xrv" secondAttribute="centerY" id="3HP-zp-nmW"/>
                 <constraint firstAttribute="bottom" secondItem="tF4-Vu-9Kx" secondAttribute="bottom" id="3Qc-xW-bPu"/>
                 <constraint firstAttribute="trailing" secondItem="tF4-Vu-9Kx" secondAttribute="trailing" id="6uP-Q5-5ag"/>
+                <constraint firstItem="tF4-Vu-9Kx" firstAttribute="top" secondItem="J3q-N2-Fuv" secondAttribute="bottom" id="9aS-r7-PAn"/>
+                <constraint firstItem="J3q-N2-Fuv" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="JF8-gf-fgd"/>
+                <constraint firstItem="J3q-N2-Fuv" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Ke6-cq-OdV"/>
+                <constraint firstAttribute="trailing" secondItem="J3q-N2-Fuv" secondAttribute="trailing" id="OiU-6R-igQ"/>
                 <constraint firstItem="tF4-Vu-9Kx" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="aLt-7b-P7K"/>
-                <constraint firstItem="tF4-Vu-9Kx" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="jfK-tz-iTK"/>
+                <constraint firstAttribute="centerX" secondItem="IgU-Nb-Xrv" secondAttribute="centerX" id="v3U-Xa-02j"/>
             </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
             <point key="canvasLocation" x="189" y="216"/>

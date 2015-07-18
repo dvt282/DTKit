@@ -22,6 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             window.rootViewController = naviController
             window.backgroundColor = UIColor.whiteColor()
             window.makeKeyAndVisible()
+          application.statusBarHidden = true
         }
         return true
     }
