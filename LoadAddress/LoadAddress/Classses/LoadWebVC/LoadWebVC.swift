@@ -10,10 +10,14 @@ import UIKit
 
 class LoadWebVC: UIViewController {
     @IBOutlet weak var webView: UIWebView!
-//    let alertLoad = UIAlertController(title: nil, message: "Loading", preferredStyle: UIAlertControllerStyle.Alert)
   var url: String!
   override func viewDidLoad() {
         super.viewDidLoad()
+    self.navigationItem.hidesBackButton = true
+    
+    let closeButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.Stop, target: self, action: "closeHandle:")
+
+    self.navigationItem.rightBarButtonItem = closeButton
       print("URL: \(url)")
       if !url.isEmpty {
         let request = NSURLRequest(URL: NSURL(string: url)!)
@@ -21,6 +25,9 @@ class LoadWebVC: UIViewController {
       }
       
     }
+  func closeHandle(sender: UIBarButtonItem) {
+    self.navigationController?.popToRootViewControllerAnimated(true)
+  }
   override func viewWillAppear(animated: Bool) {
     super.viewWillAppear(animated)
   }
@@ -34,10 +41,8 @@ class LoadWebVC: UIViewController {
 extension LoadWebVC: UIWebViewDelegate {
     func webViewDidStartLoad(webView: UIWebView) {
       UIApplication.sharedApplication().networkActivityIndicatorVisible = true
-//        presentViewController(alertLoad, animated: true, completion: nil)
     }
     func webViewDidFinishLoad(webView: UIWebView) {
       UIApplication.sharedApplication().networkActivityIndicatorVisible = false
-//        alertLoad.dismissViewControllerAnimated(true, completion: nil)
     }
 }
