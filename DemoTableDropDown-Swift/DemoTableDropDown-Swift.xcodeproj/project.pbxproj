@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46BF8A761B97F92900B05805 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46BF8A751B97F92900B05805 /* Assets.xcassets */; };
+		46BF8A791B97F92900B05805 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46BF8A771B97F92900B05805 /* LaunchScreen.storyboard */; };
+		46BF8A821B97F97E00B05805 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BF8A811B97F97E00B05805 /* AppDelegate.swift */; settings = {ASSET_TAGS = (); }; };
+		46BF8A861B97F9D000B05805 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BF8A841B97F9D000B05805 /* HomeVC.swift */; settings = {ASSET_TAGS = (); }; };
+		46BF8A871B97F9D000B05805 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46BF8A851B97F9D000B05805 /* HomeVC.xib */; settings = {ASSET_TAGS = (); }; };
+		46BF8A8B1B97FA0B00B05805 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BF8A891B97FA0B00B05805 /* HomeCell.swift */; settings = {ASSET_TAGS = (); }; };
+		46BF8A8C1B97FA0B00B05805 /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46BF8A8A1B97FA0B00B05805 /* HomeCell.xib */; settings = {ASSET_TAGS = (); }; };
+		46BF8A8F1B97FA5300B05805 /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BF8A8E1B97FA5300B05805 /* HomeHeaderView.swift */; settings = {ASSET_TAGS = (); }; };
+		46BF8A921B97FA8800B05805 /* ClassItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BF8A911B97FA8800B05805 /* ClassItem.swift */; settings = {ASSET_TAGS = (); }; };
+		46BF8A941B97FA9A00B05805 /* StudentItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BF8A931B97FA9A00B05805 /* StudentItem.swift */; settings = {ASSET_TAGS = (); }; };
+		46BF8A961B97FB6900B05805 /* HomeHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46BF8A951B97FB6900B05805 /* HomeHeaderView.xib */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		46BF8A6B1B97F92900B05805 /* DemoTableDropDown-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DemoTableDropDown-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46BF8A751B97F92900B05805 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46BF8A781B97F92900B05805 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46BF8A7A1B97F92900B05805 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46BF8A811B97F97E00B05805 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46BF8A841B97F9D000B05805 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeVC.swift; path = "DemoTableDropDown-Swift/Classes/HomeVC.swift"; sourceTree = SOURCE_ROOT; };
+		46BF8A851B97F9D000B05805 /* HomeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeVC.xib; path = "DemoTableDropDown-Swift/Classes/HomeVC.xib"; sourceTree = SOURCE_ROOT; };
+		46BF8A891B97FA0B00B05805 /* HomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeCell.swift; path = "DemoTableDropDown-Swift/Classes/HomeCell.swift"; sourceTree = SOURCE_ROOT; };
+		46BF8A8A1B97FA0B00B05805 /* HomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeCell.xib; path = "DemoTableDropDown-Swift/Classes/HomeCell.xib"; sourceTree = SOURCE_ROOT; };
+		46BF8A8E1B97FA5300B05805 /* HomeHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeHeaderView.swift; path = "DemoTableDropDown-Swift/Classes/HomeHeaderView.swift"; sourceTree = SOURCE_ROOT; };
+		46BF8A911B97FA8800B05805 /* ClassItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ClassItem.swift; path = "DemoTableDropDown-Swift/Classes/ClassItem.swift"; sourceTree = SOURCE_ROOT; };
+		46BF8A931B97FA9A00B05805 /* StudentItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StudentItem.swift; path = "DemoTableDropDown-Swift/Classes/StudentItem.swift"; sourceTree = SOURCE_ROOT; };
+		46BF8A951B97FB6900B05805 /* HomeHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeHeaderView.xib; path = "DemoTableDropDown-Swift/Classes/HomeHeaderView.xib"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46BF8A681B97F92900B05805 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46BF8A621B97F92900B05805 = {
+			isa = PBXGroup;
+			children = (
+				46BF8A6D1B97F92900B05805 /* DemoTableDropDown-Swift */,
+				46BF8A6C1B97F92900B05805 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46BF8A6C1B97F92900B05805 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46BF8A6B1B97F92900B05805 /* DemoTableDropDown-Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46BF8A6D1B97F92900B05805 /* DemoTableDropDown-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				46BF8A801B97F97E00B05805 /* Classes */,
+				46BF8A751B97F92900B05805 /* Assets.xcassets */,
+				46BF8A771B97F92900B05805 /* LaunchScreen.storyboard */,
+				46BF8A7A1B97F92900B05805 /* Info.plist */,
+			);
+			path = "DemoTableDropDown-Swift";
+			sourceTree = "<group>";
+		};
+		46BF8A801B97F97E00B05805 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				46BF8A901B97FA6400B05805 /* Objects */,
+				46BF8A831B97F99C00B05805 /* AppDelegate */,
+				46BF8A881B97F9D600B05805 /* HomeVC */,
+			);
+			name = Classes;
+			path = "../../../../thanhdv/Desktop/DemoTableDropDown-Swift/DemoTableDropDown-Swift/Classes";
+			sourceTree = "<group>";
+		};
+		46BF8A831B97F99C00B05805 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				46BF8A811B97F97E00B05805 /* AppDelegate.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		46BF8A881B97F9D600B05805 /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				46BF8A971B97FB9E00B05805 /* HomeHeaderView */,
+				46BF8A8D1B97FA1900B05805 /* HomeCell */,
+				46BF8A841B97F9D000B05805 /* HomeVC.swift */,
+				46BF8A851B97F9D000B05805 /* HomeVC.xib */,
+			);
+			name = HomeVC;
+			sourceTree = "<group>";
+		};
+		46BF8A8D1B97FA1900B05805 /* HomeCell */ = {
+			isa = PBXGroup;
+			children = (
+				46BF8A891B97FA0B00B05805 /* HomeCell.swift */,
+				46BF8A8A1B97FA0B00B05805 /* HomeCell.xib */,
+			);
+			name = HomeCell;
+			sourceTree = "<group>";
+		};
+		46BF8A901B97FA6400B05805 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				46BF8A911B97FA8800B05805 /* ClassItem.swift */,
+				46BF8A931B97FA9A00B05805 /* StudentItem.swift */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		46BF8A971B97FB9E00B05805 /* HomeHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				46BF8A8E1B97FA5300B05805 /* HomeHeaderView.swift */,
+				46BF8A951B97FB6900B05805 /* HomeHeaderView.xib */,
+			);
+			name = HomeHeaderView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46BF8A6A1B97F92900B05805 /* DemoTableDropDown-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46BF8A7D1B97F92900B05805 /* Build configuration list for PBXNativeTarget "DemoTableDropDown-Swift" */;
+			buildPhases = (
+				46BF8A671B97F92900B05805 /* Sources */,
+				46BF8A681B97F92900B05805 /* Frameworks */,
+				46BF8A691B97F92900B05805 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DemoTableDropDown-Swift";
+			productName = "DemoTableDropDown-Swift";
+			productReference = 46BF8A6B1B97F92900B05805 /* DemoTableDropDown-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46BF8A631B97F92900B05805 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = AST;
+				TargetAttributes = {
+					46BF8A6A1B97F92900B05805 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 46BF8A661B97F92900B05805 /* Build configuration list for PBXProject "DemoTableDropDown-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46BF8A621B97F92900B05805;
+			productRefGroup = 46BF8A6C1B97F92900B05805 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46BF8A6A1B97F92900B05805 /* DemoTableDropDown-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46BF8A691B97F92900B05805 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46BF8A791B97F92900B05805 /* LaunchScreen.storyboard in Resources */,
+				46BF8A961B97FB6900B05805 /* HomeHeaderView.xib in Resources */,
+				46BF8A871B97F9D000B05805 /* HomeVC.xib in Resources */,
+				46BF8A8C1B97FA0B00B05805 /* HomeCell.xib in Resources */,
+				46BF8A761B97F92900B05805 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46BF8A671B97F92900B05805 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46BF8A941B97FA9A00B05805 /* StudentItem.swift in Sources */,
+				46BF8A8F1B97FA5300B05805 /* HomeHeaderView.swift in Sources */,
+				46BF8A821B97F97E00B05805 /* AppDelegate.swift in Sources */,
+				46BF8A8B1B97FA0B00B05805 /* HomeCell.swift in Sources */,
+				46BF8A861B97F9D000B05805 /* HomeVC.swift in Sources */,
+				46BF8A921B97FA8800B05805 /* ClassItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		46BF8A771B97F92900B05805 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46BF8A781B97F92900B05805 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46BF8A7B1B97F92900B05805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46BF8A7C1B97F92900B05805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46BF8A7E1B97F92900B05805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "DemoTableDropDown-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DemoTableDropDown-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		46BF8A7F1B97F92900B05805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "DemoTableDropDown-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DemoTableDropDown-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46BF8A661B97F92900B05805 /* Build configuration list for PBXProject "DemoTableDropDown-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46BF8A7B1B97F92900B05805 /* Debug */,
+				46BF8A7C1B97F92900B05805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46BF8A7D1B97F92900B05805 /* Build configuration list for PBXNativeTarget "DemoTableDropDown-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46BF8A7E1B97F92900B05805 /* Debug */,
+				46BF8A7F1B97F92900B05805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46BF8A631B97F92900B05805 /* Project object */;
+}
